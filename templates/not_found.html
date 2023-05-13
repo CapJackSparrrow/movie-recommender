@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Not Found</title>
+</head>
+<body>
+	<h1>Movie Not Found</h1>
+	<p>The movie "{{ request.args.get('movie') }}" was not found. Please try again.</p>
+	<a href="{{ url_for('home') }}">Go back to home page</a>
+</body>
+</html>

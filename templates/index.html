@@ -1,0 +1,13 @@
+<html>
+   <body>
+    <h1>Moviews Recommender System</h1>
+
+    <form method="POST" action="{{ url_for('recommend') }}">
+        <label for="movie">Enter movie title:</label>
+        <input type="text" id="movie" name="movie">
+        <button type="submit">Get recommendations</button>
+    </form>
+    
+   </body>
+
+</html>
